@@ -1,36 +1,50 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-
   background-color: var(--cor-fundo-header);
-  color: var(--cor-texto-menu);
-
+  
 `
 
 export const Content = styled.div`
-
-  max-width: 1200px;
+  max-width: 1120px;
   margin: 0 auto;
-  height: 400px;
-  padding: 0 20px;
+  padding: 3rem 1rem 13rem;
   display: flex;
   align-items: center;
-
+  
 
   a {
-    color: var(--cor-texto-menu);
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 400;
-    padding: 10px;
-    margin: 0 10px;
-    transition: all 0.2s;
-
-    margin-bottom: 100px;
     
+
+    text-decoration: none;
+    color: var(--cor-texto-menu);
+    font-size: 25px;
+    transition: color 0.2s;
+
+    margin: 1rem;
+    padding: 0.5rem;
+
   }
 
+  button { 
+    font-size: 1rem;
+    color: #FFFFFF;
+    background: var(--cor-botao-vermelho);
+    border: 0;
+    padding: 0 3rem;
+    border-radius: 0.25rem;
+    height:3rem;
+
+    margin-left: 25rem;
+    margin-top: 4rem;
 
 
-
+    
+    transition: filter 0.2s;
+    &:hover {
+      filter: brightness(0.9);
+    }
+    
+  }
+  
 `

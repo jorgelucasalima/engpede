@@ -1,11 +1,11 @@
 import { Container } from "./styles";
+import Resumo from "../../components/Resumo";
 
 
 export default function Dashboard() {
   return (
     <Container>
-      <h1>importar component resumo</h1>
-      <h1>importar component pedidos</h1>
+      <Resumo />
     </Container>
   );
 }

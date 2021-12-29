@@ -4,7 +4,8 @@ import { createGlobalStyle } from 'styled-components'
 export const EstiloGlobal = createGlobalStyle`
 
   :root {
-    --cor-fundo-header: #4F46E5;
+    --cor-fundo-header: #202024;
+    --cor-fundo-header2:#11C9EE;
     --cor-fundo: #F3F4F6;
     --cor-fundo-outros: #FFFFFF;
 
@@ -13,6 +14,7 @@ export const EstiloGlobal = createGlobalStyle`
 
     --cor-texto: #6B7280;
     --cor-botao: #A5B4FC;
+    --cor-botao-vermelho: #F5365C;
 
     --cor-linha: #726BEA
 
