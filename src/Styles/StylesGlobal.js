@@ -8,6 +8,7 @@ export const EstiloGlobal = createGlobalStyle`
     --cor-fundo-header2:#11C9EE;
     --cor-fundo: #F3F4F6;
     --cor-fundo-outros: #FFFFFF;
+    --cor-fundo-pedidos: #121214;
 
     --cor-texto-menu: #FFFFFF;
     --cor-icone-menu: #A5B4FC;
