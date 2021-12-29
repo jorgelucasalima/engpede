@@ -9,10 +9,12 @@ export const EstiloGlobal = createGlobalStyle`
     --cor-fundo-outros: #FFFFFF;
 
     --cor-texto-menu: #FFFFFF;
-    --cor-icone-menu: #FFFFFF;
+    --cor-icone-menu: #A5B4FC;
 
     --cor-texto: #6B7280;
     --cor-botao: #A5B4FC;
+
+    --cor-linha: #726BEA
 
   }
 
@@ -41,6 +43,7 @@ export const EstiloGlobal = createGlobalStyle`
     font-weight: 400;
   }
 
+  
   h1, h2, h3, h4, h5, h6, strong {
     font-weight: 600;
   }
