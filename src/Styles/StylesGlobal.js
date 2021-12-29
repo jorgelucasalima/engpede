@@ -34,7 +34,7 @@ export const EstiloGlobal = createGlobalStyle`
   }
 
   body {
-    background: var(--cordefundo);
+    background: var(--cor-fundo);
     -webkit-font-smoothing: antialiased;
   }
 

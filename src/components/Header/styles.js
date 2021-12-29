@@ -4,21 +4,18 @@ export const Container = styled.header`
 
   background-color: var(--cor-fundo-header);
   color: var(--cor-texto-menu);
-  padding: 100px;
-  margin: 0px;
 
 `
 
 export const Content = styled.div`
-  padding: 20px;
 
-  svg {
-    color: var(--cor-icone-menu);
-  }
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 400px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
 
-  hr {
-    border: 1px solid var(--cor-linha);
-  }
 
   a {
     color: var(--cor-texto-menu);
@@ -28,6 +25,8 @@ export const Content = styled.div`
     padding: 10px;
     margin: 0 10px;
     transition: all 0.2s;
+
+    margin-bottom: 100px;
     
   }
 
