@@ -9,10 +9,11 @@ export default function Pedidos() {
 
           <thead>
             <tr>
-              <th>Titulo</th>
-              <th>Valor</th>
-              <th>Categoria</th>
-              <th>Data</th>
+              <th>Id</th>
+              <th>Pedido</th>
+              <th>Compra</th>
+              <th>Status</th>
+              <th>Responsável</th>
             </tr>
           </thead>
 
