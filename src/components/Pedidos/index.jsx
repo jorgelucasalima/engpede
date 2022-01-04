@@ -11,9 +11,10 @@ export default function Pedidos() {
             <tr>
               <th>Id</th>
               <th>Pedido</th>
-              <th>Compra</th>
+              <th>Data entrega</th>
               <th>Status</th>
               <th>Responsável</th>
+              <th>Ações</th>
             </tr>
           </thead>
 
