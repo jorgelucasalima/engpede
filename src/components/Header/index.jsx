@@ -1,7 +1,6 @@
 import { Container, Content } from "./styles"
-import {FaBoxOpen} from 'react-icons/fa'
 
-import logo from '../../assets/logo.png'
+import { ModalCadastroPedido } from "../ModalCadastroPedido"
 
 export default function Header() {
   
@@ -11,7 +10,7 @@ export default function Header() {
         <a href="">Empresa</a>
         <a href="">Pedidos</a>
         <a href="">Produtos</a>
-        <button>Pedido</button>
+        <button >Pedido</button>
       </Content>
     </Container>
   )

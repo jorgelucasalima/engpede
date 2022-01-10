@@ -1,6 +1,8 @@
 import { FaRegEye, FaEdit, FaRegTrashAlt } from "react-icons/fa"
 import { Container } from "./styles"
 
+import firebase from "../../services/firebaseConnection"
+
 
 export default function Pedidos() {
 
