@@ -31,10 +31,22 @@ export default function Pedidos() {
           <tbody>
             <tr>
               <td>1</td>
-              <td>Pedido 1</td>
+              <td>Predio Queiroz Galvão</td>
               <td>01/01/2020</td>
-              <td>Aberto</td>
+              <td>Entregue</td>
               <td>Pedro</td>
+              <td> 
+                <FaRegEye/>
+                <FaEdit/>
+                <FaRegTrashAlt/>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Casa Itamaracá</td>
+              <td>02/03/2023</td>
+              <td>Aberto</td>
+              <td>Manoel</td>
               <td> 
                 <FaRegEye/>
                 <FaEdit/>

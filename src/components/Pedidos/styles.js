@@ -19,9 +19,18 @@ export const Container = styled.div`
     margin-top: 30px;
 
     tr {
-      :hover {
-        background-color: #f5f5f5;
-          
+
+      td {
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+
+    svg {
+      font-size: 20px;
+      margin-right: 10px;
+      cursor: pointer;
+
     }
 
   }
