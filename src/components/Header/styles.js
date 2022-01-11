@@ -14,7 +14,6 @@ export const Content = styled.div`
   
 
   a {
-    
 
     text-decoration: none;
     color: var(--cor-texto-menu);
@@ -46,5 +45,5 @@ export const Content = styled.div`
     }
     
   }
-  
 `
+
