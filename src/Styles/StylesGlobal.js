@@ -59,7 +59,5 @@ export const EstiloGlobal = createGlobalStyle`
     opacity: 8.6;
     cursor: not-allowed;
   }
-  
-
 
 `

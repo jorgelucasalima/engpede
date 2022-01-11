@@ -8,5 +8,13 @@ export const Container = styled.form`
     margin-bottom: 1rem;
   }
 
+  .ModalContent {
+    width: 100%;
+    max-width: 576px;
+    background: var(--cor-fundo);
+    padding: 3rem;
+    position: relative;
+    border-radius: 0.25rem;
+  }
 
 `
