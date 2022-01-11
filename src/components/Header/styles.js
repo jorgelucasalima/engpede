@@ -25,6 +25,7 @@ export const Content = styled.div`
 
   }
 
+
   button { 
     font-size: 1rem;
     color: #FFFFFF;
@@ -38,7 +39,6 @@ export const Content = styled.div`
     margin-top: 4rem;
 
 
-    
     transition: filter 0.2s;
     &:hover {
       filter: brightness(0.9);
