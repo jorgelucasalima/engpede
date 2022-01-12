@@ -35,12 +35,6 @@ export default function Header() {
           className="StyledModal"
           
         >
-
-          <FaWindowClose 
-            onClick={closeModal}
-            className="closeModal"
-          />
-          
           <ContainerModal>
             <h2>Criar Pedido</h2>
 

@@ -61,12 +61,12 @@ export const EstiloGlobal = createGlobalStyle`
   }
 
   .styledOverlay {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);;
     position: fixed;
-    top: 05%;
-    bottom: 20%;
-    right: 20%;
-    left: 20%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,18 +75,11 @@ export const EstiloGlobal = createGlobalStyle`
   .StyledModal {
     background: var(--cor-fundo-outros);
     max-width: 576px;
-    background: var(--cordefundo);
+    background: var(--cor-fundo);
     padding: 2rem;
     position: relative;
     border-radius: 0.25rem;
   }
 
-  .closeModal {
-    position: absolute;
-    top: 0;
-    
-    cursor: pointer;
-  }
-  
 
 `
