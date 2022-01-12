@@ -63,20 +63,20 @@ export const EstiloGlobal = createGlobalStyle`
   .styledOverlay {
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
-    top: 0;
-    bottom: 0px;
-    right: 0;
-    left: 0;
+    top: 05%;
+    bottom: 20%;
+    right: 20%;
+    left: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .StyledModal {
-    width: 100%;
+    background: var(--cor-fundo-outros);
     max-width: 576px;
     background: var(--cordefundo);
-    padding: 3rem;
+    padding: 2rem;
     position: relative;
     border-radius: 0.25rem;
   }
